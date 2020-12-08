@@ -5,15 +5,29 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
   },
   "dependencies": {
+    "axios": "^0.21.0",
     "expo": "~39.0.2",
+    "expo-font": "^8.3.0",
+    "expo-module-scripts": "^1.2.0",
     "expo-status-bar": "~1.0.2",
+    "moment": "^2.29.1",
+    "native-base": "2.13.8",
+    "native-base-web": "0.0.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-keyboard-aware-scroll-view": "^0.9.3",
+    "react-native-web": "~0.13.12",
+    "react-native-webview": "^11.0.1"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0"
